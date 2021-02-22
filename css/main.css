@@ -1,0 +1,658 @@
+@charset "UTF-8";
+/* line 1, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+/* line 6, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.container {
+  max-width: 1360px;
+}
+
+/* line 10, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+header {
+  height: 107px;
+  background-color: #238AC2;
+}
+
+/* line 15, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top {
+  height: 614px;
+  background-image: url("../assets/Grupo 218.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #656565;
+}
+
+/* line 22, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top div.text-center img:first-child {
+  padding-left: 100px;
+}
+
+/* line 25, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* line 29, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top p {
+  width: 530px;
+  font-weight: lighter;
+}
+
+/* line 33, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top p:nth-child(2) {
+  font-size: 0.8rem;
+}
+
+/* line 36, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top p:nth-child(3) {
+  margin-bottom: 40px;
+}
+
+/* line 39, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.bg-top p:nth-child(4) {
+  margin-left: -10px;
+}
+
+/* line 44, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.fa-star {
+  color: #FFD600;
+}
+
+/* line 48, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.gray {
+  color: #CED4DA;
+}
+
+/* line 52, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios {
+  height: 666px;
+  background-image: url("../assets/bg-02.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #656565;
+}
+
+/* line 59, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios h2 {
+  margin-bottom: 20px;
+}
+
+/* line 62, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios .light {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* line 68, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios .col {
+  padding-left: 214px;
+}
+
+/* line 71, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 75, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios li {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  list-style: none;
+  margin-bottom: 20px;
+  padding-left: 28px;
+  position: relative;
+}
+
+/* line 83, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.beneficios li::before {
+  content: "\2B21";
+  width: 1.5rem;
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 20px;
+  height: 20px;
+  top: 0px;
+  position: absolute;
+  left: 0;
+}
+
+/* line 97, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados {
+  height: 666px;
+  background-image: url("../assets/bg-03.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 105, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .col-6 {
+  padding-left: 10%;
+  margin-top: 140px;
+}
+
+/* line 109, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .col-6:nth-child(3) {
+  padding-left: 20%;
+}
+
+/* line 112, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .col-12:nth-child(4) p {
+  background-color: rgba(171, 137, 109, 0.6);
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 50px;
+  font-size: 0.8rem;
+}
+
+/* line 119, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .btn {
+  width: 178px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: -10px;
+}
+
+/* line 130, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados a {
+  color: #FFFFFF;
+}
+
+/* line 134, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados h2 {
+  font-size: 2rem;
+}
+
+/* line 137, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .bold {
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+/* line 141, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .light {
+  font-weight: 300;
+}
+
+/* line 144, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .percent-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* line 148, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .percent-row .percent {
+  font-size: 2rem;
+  font-weight: 600;
+  border-bottom: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 0 20px;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  width: 118px;
+}
+
+/* line 159, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .percent-row div:nth-child(2) {
+  line-height: 1.3rem;
+  font-size: 1.3rem;
+}
+
+/* line 164, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.resultados .percent-row .bold {
+  padding-top: 0;
+}
+
+/* line 177, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa {
+  height: 666px;
+  background-image: url("../assets/bg-04.png");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: #656565;
+}
+
+/* line 184, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa h2 {
+  margin-bottom: 20px;
+}
+
+/* line 187, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa .light {
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* line 193, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa .col {
+  padding-right: 130px;
+}
+
+/* line 196, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+/* line 200, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.alternativa .destaque {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #92623B;
+  line-height: 1.5rem;
+  margin: 40px 0;
+}
+
+/* line 209, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+#maxima {
+  background-image: url("../assets/Grupo 337.png");
+}
+
+/* line 212, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+#maxima h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #656565;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* line 219, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+#maxima h2 span {
+  font-weight: 300;
+}
+
+/* line 227, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag {
+  background-image: url("../assets/Grupo 336.png");
+  background-repeat: repeat-y;
+}
+
+/* line 230, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text {
+  position: relative;
+  background-color: #F9F9F9;
+  height: 357px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -138px;
+  color: #656565;
+}
+
+/* line 241, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text h3 {
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 2.3rem;
+  margin-bottom: 20px;
+  padding-left: 60px;
+}
+
+/* line 249, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #565656;
+  line-height: 1.5rem;
+  max-width: 512px;
+  padding-left: 60px;
+}
+
+/* line 258, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text:nth-child(1) p:nth-child(2) {
+  width: 582px;
+  padding-left: 140px;
+}
+
+/* line 263, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text:nth-child(1) h3:nth-child(1) {
+  width: 582px;
+  padding-left: 140px;
+}
+
+/* line 268, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag .tiny-text #vitac-desc {
+  margin-top: 0;
+}
+
+/* line 272, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag div.large-image {
+  height: 636px;
+  margin-top: -138px;
+}
+
+/* line 277, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #vitac {
+  margin-top: 0;
+  background: url("../assets/shutterstock_747318274.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 282, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #arbutin {
+  background: url("../assets/shutterstock_716948296.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 286, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #niacinamida {
+  background: url("../assets/shutterstock_1640775646.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 290, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #kojico {
+  background: url("../assets/Mushroom-Beauty_Hero.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 294, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #skin {
+  background: url("../assets/shutterstock_1745446805.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 298, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #ceramida {
+  background: url("../assets/shutterstock_421957195.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 302, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #glicolico {
+  background: url("../assets/shutterstock_507446341.png") no-repeat center center;
+  background-size: cover;
+}
+
+/* line 306, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag #salicilico {
+  background: url("../assets/shutterstock_631708091.png") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 200px;
+}
+
+/* line 312, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag div.tiny-text:nth-child(1):after {
+  position: absolute;
+  width: 886px;
+  height: 357px;
+  content: "";
+  background-color: transparent;
+  border: 8px solid #F9F9F9;
+  top: 0;
+  left: 140px;
+  z-index: 2;
+}
+
+/* line 323, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag div.tiny-text:nth-child(2):after {
+  position: absolute;
+  width: 886px;
+  height: 357px;
+  content: "";
+  background-color: transparent;
+  border: 8px solid #F9F9F9;
+  top: 0;
+  right: 140px;
+  z-index: 2;
+}
+
+/* line 334, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.zig-zag div:last-child .tiny-text:first-child {
+  margin-top: -335px;
+}
+
+/* line 340, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas {
+  height: 437px;
+  background-image: url("../assets/Retângulo 196.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+/* line 347, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas img {
+  position: absolute;
+  bottom: -218px;
+}
+
+/* line 352, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas h2 {
+  margin-bottom: 20px;
+}
+
+/* line 355, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas .light {
+  font-size: 3.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+/* line 360, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas .col {
+  padding-right: 100px;
+}
+
+/* line 363, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas p {
+  font-size: 1.1rem;
+}
+
+/* line 367, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas .btn {
+  width: 178px;
+  height: 50px;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* line 377, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.axilas a {
+  color: #FFFFFF;
+}
+
+/* line 382, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite {
+  height: 666px;
+  background-image: url("../assets/bg-07.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 388, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite .bold {
+  font-size: 3rem;
+  color: #496E84;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 394, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite .light {
+  font-weight: 200;
+}
+
+/* line 397, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite p {
+  color: #496E84;
+  font-size: 1.1rem;
+}
+
+/* line 401, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite .col {
+  padding-left: 150px;
+}
+
+/* line 404, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite .btn {
+  width: 178px;
+  height: 50px;
+  border: 2px solid #496E84;
+  background-color: transparent;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* line 414, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.dia-e-noite a {
+  color: #496E84;
+}
+
+/* line 419, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso {
+  position: relative;
+  padding: 40px;
+  background-image: url("../assets/Grupo 336.png"), url("../assets/Grupo 337.png");
+  background-position: top, bottom;
+  background-repeat: no-repeat, no-repeat;
+  margin-bottom: 170px;
+}
+
+/* line 427, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bold {
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #AB896D;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 434, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bold:first-child {
+  padding-top: 100px;
+}
+
+/* line 437, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .light {
+  font-weight: 200;
+}
+
+/* line 440, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .simples {
+  font-size: 3rem;
+  padding-left: 114px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* line 447, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .uso-content {
+  height: 887px;
+  background-image: url("../assets/Grupo 246.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 455, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .uso-content::before {
+  position: absolute;
+  background-color: #AB896D;
+  content: "";
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* line 467, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .como-usar {
+  height: 529px;
+}
+
+/* line 471, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bem-simples {
+  height: 358px;
+}
+
+/* line 474, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bem-simples .icone {
+  text-align: center;
+  padding: 0;
+  justify-content: space-between;
+}
+
+/* line 479, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bem-simples .icone:nth-child(2) img {
+  margin-top: -26px;
+}
+
+/* line 482, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .bem-simples .icone p {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #AB896D;
+}
+
+/* line 489, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso .btn {
+  width: 538px;
+  height: 70px;
+  border: 2px solid #AB896D;
+  background-color: transparent;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: -60px;
+}
+
+/* line 500, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.uso a {
+  color: #AB896D;
+}
+
+/* line 505, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.selos {
+  height: 348px;
+  background-color: #AB896D;
+}
+
+/* line 516, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+.descricao img {
+  width: 100%;
+}
+
+/* line 522, ../../../Documents/Pessoal/Testes-Recrutamento-Seleção/Bold Comunicação/Front end/scss/_layout.scss */
+footer img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
