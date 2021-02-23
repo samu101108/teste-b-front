@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
+  background-color: peru; //debug
 }
 
 .container {
@@ -95,7 +96,7 @@ header {
 }
 
 .resultados {
-  height: 666px;
+  min-height: 766px;
   background-image: url("../assets/bg-03.png");
   background-size: cover;
   background-position: center;
@@ -110,10 +111,10 @@ header {
     padding-left: 20%;
   }
   .col-12:nth-child(4) p {
-    background-color: rgba(171, 137, 109, 0.6);
+    // background-color: rgba(171, 137, 109, 0.6);
     display: inline-block;
     padding: 0 10px;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 0.8rem;
   }
   .btn {
@@ -148,13 +149,14 @@ header {
     .percent {
       font-size: 2rem;
       font-weight: 600;
-      border-bottom: 1px solid #FFFFFF;
-      border-left: 1px solid #FFFFFF;
-      border-radius: 50px;
+      // border-bottom: 1px solid #FFFFFF;
+      // border-left: 1px solid #FFFFFF;
+      // border-top: 1px solid transparent;
+      // border-right: 1px solid transparent;
+      // border-radius: 50px;
       padding: 0 20px;
-      border-right: 1px solid transparent;
-      border-top: 1px solid transparent;
       width: 118px;
+      background: url("../assets/icones/percent-border.svg") no-repeat left bottom;
     }
     div:nth-child(2) {
       line-height: 1.3rem;
@@ -175,7 +177,7 @@ header {
 }
 
 .alternativa {
-  height: 666px;
+  min-height: 800px;
   background-image: url("../assets/bg-04.png");
   background-size: cover;
   background-position: right center;
@@ -184,21 +186,24 @@ header {
   h2 {
     margin-bottom: 20px;
   }
+  p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4rem;
+  }
   .light {
-    font-size: 3rem;
+    font-size: 45px;
     line-height: 3rem;
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
   }
   .col {
-    padding-right: 130px;
-  }
-  p {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
+    padding-right: 150px;
+    margin-left: -110px;
   }
   .destaque {
-    font-size: 1.5rem;
+    font-size: 25px;
     font-weight: 700;
     color: #92623B;
     line-height: 1.5rem;
@@ -208,7 +213,7 @@ header {
 
 #maxima {
   // background-color: royalblue;
-  background-image: url("../assets/Grupo\ 337.png") ;
+  background-image: url("../assets/bg-square-transparent.png"), url("../assets/bg-top-degrade.png");
   h2 {
     font-size: 3rem;
     text-transform: uppercase;
@@ -225,7 +230,8 @@ header {
 
 // MIOLO LEGAL
 .zig-zag {
-  background-image: url("../assets/Grupo\ 336.png") ;
+  // background-image: url("../assets/Grupo\ 336.png") ;
+  background-image: url("../assets/bg-square-transparent.png"), url("../assets/bg-bottom-degrade.png");
   background-repeat: repeat-y;
   .tiny-text {
     // border: 1px solid red;
@@ -419,10 +425,16 @@ header {
 .uso {
   position: relative;
   padding: 40px;
-  background-image: url("../assets/Grupo\ 336.png"), url("../assets/Grupo\ 337.png");
+  // background-image: url("../assets/Grupo\ 336.png"), url("../assets/Grupo\ 337.png");
+  // background-position: top, bottom;
+  // background-repeat: no-repeat, no-repeat;
+  
+  // PARA SUBSTITUIR COM OS 3 BGS (2 TRANSPARENCIAS E 1 SQUARES)
+  background-image: url("../assets/bg-bottom-degrade.png"), url("../assets/bg-top-degrade.png");
   background-position: top, bottom;
   background-repeat: no-repeat, no-repeat;
-  // background-size:100% 100%;
+  background-size:100%,  100%;
+
   margin-bottom: 170px;
   .bold {
     font-size: 4rem;
@@ -446,23 +458,24 @@ header {
   
   .uso-content {
     height: 887px;
-    background-image: url("../assets/Grupo\ 246.png");
+    // background-image: url("../assets/Grupo\ 246.png");
+    background-image: url("../assets/Grupo\ 339.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;  
   }
 
-  .uso-content::before {
-    position: absolute;
-    background-color: #AB896D;
-    content: "";
-    width: 200px;
-    height: 200px;
-    z-index: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  // .uso-content::before {
+  //   position: absolute;
+  //   background-color: #AB896D;
+  //   content: "";
+  //   width: 200px;
+  //   height: 200px;
+  //   z-index: 0;
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  // }
 
   .como-usar {
     height: 529px;
@@ -483,6 +496,7 @@ header {
         font-weight: bold;
         text-transform: uppercase;
         color: #AB896D;
+        margin-top: 10px;
       }
     }
   }
@@ -498,17 +512,41 @@ header {
     margin-top: -60px;
   }
   a {
+    padding-top: 10px;
     color: #AB896D;
   }
 }
 
 .selos {
   // position: relative;
-  height: 348px;
+  min-height: 348px;
+  padding: 50px 10px;
   background-color: #AB896D;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-transform: uppercase;
 
-  img {
-    // centralizar essa imagem
+  .col ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1030px;
+    margin: 0 auto;
+  }
+
+  ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+    display: inline-block;
+    width: 196px;
+  }
+  p {
+    margin-top: 12px;
+    line-height: 1.2rem;
   }
 }
 
@@ -523,3 +561,4 @@ footer {
     width: 100%;
   }
 }
+

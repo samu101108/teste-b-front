@@ -7,9 +7,13 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700;900&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,500;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <title>Clarify</title>
 </head>
 <body>
   <div class="container">
@@ -44,9 +48,10 @@
           <li>Maior penetração dos produtos através da nanotecnologia</li>
         </ul>
         <div>
-          <video id="myVideo" poster="assets/Grupo 282.png" autoplay muted>
+          <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=P0wC3eBl_qo"><img src="assets/Grupo 282.png"></a>
+          <!-- <video id="myVideo" poster="assets/Grupo 282.png" autoplay muted>
               <source src="video.mp4" type="video/mp4">
-          </video>
+          </video> -->
         </div>
       </div>
       <div class="col"></div>
@@ -210,15 +215,15 @@
         <p class="bold simples">É bem simples</p>
         <div class="row bem-simples">
           <div class="col-2 icone">
-            <img src="assets/Grupo 231.svg" alt="Dedo">
+            <img src="assets/icones/dedo.svg" alt="Dedo">
             <p>aplique duas vezes ao dia (manhã e noite)</p>
           </div>
           <div class="col-2 icone">
-            <img src="assets/Grupo 338.png" alt="Creme">
+            <img src="assets/icones/bisnaga.png" alt="Creme">
             <p>Pela manhã, após a aplicação, utilize o protetor solar (até mesmo em dias nublados)</p>
           </div>
           <div class="col-2 icone">
-            <img src="assets/Grupo 244.svg" alt="Sol">
+            <img src="assets/icones/sol.svg" alt="Sol">
             <p>evite exposição direta ao sol</p>
           </div>
           <div class="col-6"></div>
@@ -234,8 +239,29 @@
 
     <div class="row selos align-items-center">
       <div class="col text-center">
-        <img src="assets/Grupo 273.svg" alt="">
-
+        <!-- <img src="assets/Grupo 273.svg" alt=""> -->
+          <ul>
+            <li>
+              <img src="assets/icones/gota-mao.svg" alt="ícone">
+              <p>Dermatologicamente testado</p>
+            </li>
+            <li>
+              <img src="assets/icones/selo.svg" alt="ícone">
+              <p>Eficácia comprovada</p>
+            </li>
+            <li>
+              <img src="assets/icones/folhas-3.svg" alt="ícone">
+              <p>Livre de parabenos</p>
+            </li>
+            <li>
+              <img src="assets/icones/folhas-2.svg" alt="ícone">
+              <p>Não testado em animais</p>
+            </li>
+            <li>
+              <img src="assets/icones/coelho.svg" alt="ícone">
+              <p>Vegano</p>
+            </li>
+          </ul>
       </div>
     </div>
     <div class="row descricao">
@@ -247,5 +273,6 @@
 
   </div>
   <script src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </body>
 </html>
